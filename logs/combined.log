@@ -1306,3 +1306,31 @@
 {"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-20T11:27:18.365Z"}
 {"message":"database ready","level":"info","timestamp":"2020-01-20T11:27:18.366Z"}
 {"message":"server listening port 8080","level":"info","timestamp":"2020-01-20T11:27:18.370Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-20T11:27:43.686Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-20T11:27:43.702Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-20T11:27:43.716Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-20T11:27:43.768Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-20T11:27:43.770Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-20T11:27:43.770Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-20T11:27:43.780Z"}
+{"message":"guest@::1 GET /country/ 403 5.963 ms","level":"info","timestamp":"2020-01-20T11:27:56.592Z"}
+{"message":"guest@::1 PUT /country/1 403 1.976 ms","level":"info","timestamp":"2020-01-20T11:28:03.121Z"}
+{"message":"guest@::1 PUT /company/5 403 0.872 ms","level":"info","timestamp":"2020-01-20T11:28:29.784Z"}
+{"message":"uid1@::1 POST /auth/login 200 33.356 ms","level":"info","timestamp":"2020-01-20T11:28:52.237Z"}
+{"message":"uid1@::1 GET /company/ 200 14.039 ms","level":"info","timestamp":"2020-01-20T11:28:55.101Z"}
+{"message":"uid1@::1 GET /company/1 404 34.913 ms","level":"info","timestamp":"2020-01-20T11:28:57.451Z"}
+{"message":"uid1@::1 PUT /company/5 404 6.757 ms","level":"info","timestamp":"2020-01-20T11:29:01.739Z"}
+{"message":"uid1@::1 PUT /company/1 404 6.289 ms","level":"info","timestamp":"2020-01-20T11:29:08.259Z"}
+{"message":"uid1@::1 POST /country/ 200 12.399 ms","level":"info","timestamp":"2020-01-20T11:29:10.174Z"}
+{"message":"uid1@::1 POST /country/ 200 18.810 ms","level":"info","timestamp":"2020-01-20T11:29:12.789Z"}
+{"message":"uid1@::1 POST /country/ 200 10.076 ms","level":"info","timestamp":"2020-01-20T11:29:15.440Z"}
+{"message":"uid1@::1 GET /company/ 200 5.032 ms","level":"info","timestamp":"2020-01-20T11:29:17.984Z"}
+{"message":"uid1@::1 GET /company/ 200 5.555 ms","level":"info","timestamp":"2020-01-20T11:29:19.453Z"}
+{"message":"uid1@::1 POST /company/ 200 12.417 ms","level":"info","timestamp":"2020-01-20T11:29:36.292Z"}
+{"message":"uid1@::1 POST /company/ 200 9.940 ms","level":"info","timestamp":"2020-01-20T11:29:38.388Z"}
+{"message":"uid1@::1 POST /company/ 200 14.605 ms","level":"info","timestamp":"2020-01-20T11:29:40.491Z"}
+{"message":"uid1@::1 GET /company/ 200 9.743 ms","level":"info","timestamp":"2020-01-20T11:29:42.423Z"}
+{"message":"uid1@::1 PUT /company/1 200 15.689 ms","level":"info","timestamp":"2020-01-20T11:29:50.044Z"}
+{"message":"uid1@::1 GET /company/ 200 7.119 ms","level":"info","timestamp":"2020-01-20T11:29:53.114Z"}
+{"message":"uid1@::1 DELETE /company/1 200 8.487 ms","level":"info","timestamp":"2020-01-20T11:30:06.111Z"}
+{"message":"uid1@::1 GET /company/ 200 5.778 ms","level":"info","timestamp":"2020-01-20T11:30:08.337Z"}
