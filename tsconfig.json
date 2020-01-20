@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es2019",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "strict": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "baseUrl": "src",
+        "paths": {
+            "@config/*": ["config/*"],
+            "@models/*": ["models/*"],
+            "@controllers/*": ["controllers/*"],
+            "@utilities/*": ["utilities/*"],
+            "@routes/*": ["routes/*"]
+        },
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "dist"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

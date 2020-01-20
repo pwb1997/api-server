@@ -1,0 +1,16 @@
+{
+  "database": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "username": "admin",
+    "password": "admin",
+    "database": "web_catalog_development"
+  },
+  "server": {
+    "port": 8080
+  },
+  "security": {
+    "saltLength": 8,
+    "sessionSecret": "u![;+%wjV]GF;VE"
+  }
+}
