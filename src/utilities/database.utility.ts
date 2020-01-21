@@ -23,7 +23,7 @@ export const connect = async () => {
     });
     logger.info(`database connected at ${dbConf.host}:${dbConf.port}`);
   } catch (err) {
-    console.log(err)
+    console.log(err);
     logger.error(`database connection denied at ${dbConf.host}:${dbConf.port}, exiting`);
     process.exit();
   }

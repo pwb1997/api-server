@@ -15,7 +15,7 @@ export default class User extends DefaultEntity {
   @ManyToOne((type) => UserGroup, (userGroup) => userGroup.users, {nullable: true, onDelete: 'SET NULL', onUpdate: 'CASCADE'})
   userGroup?: UserGroup;
 
-  @OneToMany((type) => Archive, (archive) => archive.user)
+  @OneToMany((type) => Archive, (archive) => archive.user, {onUpdate: 'CASCADE'})
   archives?: Archive[];
 
   @ManyToMany((type) => Product, (product) => product.interestedUsers)

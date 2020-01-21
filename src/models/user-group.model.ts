@@ -5,7 +5,9 @@ import Country from './country.model';
 import {DefaultEntity} from './template.model';
 import PriceType from './price-type.model';
 import ProductFolder from './product-folder';
+import ProductFolderAccess from './product-folder-access';
 import User from './user.model';
+import MediaFolderAccess from './media-folder-access';
 
 export enum UserGroupType {
   ADMIN = 'admin',
@@ -20,18 +22,24 @@ export default class UserGroup extends DefaultEntity {
   @Column({nullable: false, type: 'enum', enum: UserGroupType})
   type!: UserGroupType;
 
-  @OneToMany((type) => User, (user) => user.userGroup)
-  users?: User[];
-
-  @ManyToOne((type) => Company, (company) => company.userGroups, {nullable: true, onDelete: 'CASCADE'})
+  @ManyToOne((type) => Company, (company) => company.userGroups, {nullable: true, cascade: true})
   company?: Company;
 
-  @ManyToOne((type) => Country, (country) => country.userGroups, {nullable: true, onDelete: 'CASCADE'})
+  @ManyToOne((type) => Country, (country) => country.userGroups, {nullable: true, cascade: true})
   country?: Country;
+
+  @OneToMany((type) => ProductFolderAccess, (productFolderAccess) => productFolderAccess.userGroup)
+  productFolderAccess!: ProductFolderAccess[];
+
+  @OneToMany((type) => User, (user) => user.userGroup)
+  users?: User[];
 
   @ManyToMany((type) => PriceType, (priceType) => priceType.userGroups)
   @JoinTable({name: 'priceTypeAccess'})
   priceTypes?: PriceType[];
+
+  @OneToMany((type) => MediaFolderAccess, (mediaFolderAccess) => mediaFolderAccess.userGroup)
+  mediaFolderAccess?: MediaFolderAccess[];
 
   @BeforeInsert()
   @BeforeUpdate()

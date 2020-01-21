@@ -1,7 +1,10 @@
-import {Column, Entity, JoinTable, ManyToMany} from 'typeorm';
+import {Column, Entity, JoinTable, ManyToMany, OneToMany} from 'typeorm';
 import {DefaultEntity} from './template.model';
+import Media from './media.model';
+import Price from './price.model';
 import ProductFolder from './product-folder';
 import User from './user.model';
+import Category from './category.model';
 
 @Entity('product')
 export default class Product extends DefaultEntity {
@@ -38,4 +41,14 @@ export default class Product extends DefaultEntity {
 
   @ManyToMany((type) => ProductFolder, (productFolder) => productFolder.products)
   folders?: ProductFolder[];
+
+  @ManyToMany((type) => Media, (media) => media.ofProducts)
+  media?: Media[];
+
+  @OneToMany((type) => Price, (price) => price.product)
+  prices?: Price[];
+
+  @ManyToMany((type) => Category, (category) => category.products)
+  @JoinTable({name: 'productCategory'})
+  categories?: Category[];
 }
