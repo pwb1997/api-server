@@ -82,3 +82,16 @@ export const add = async (req: Request, res: Response) => {
   }
 };
 
+export const deleteId = async (req: Request, res: Response) => {
+  const id = Number(req.params.id);
+  const sessionUid = req.session!.userId;
+  if (isNaN(id)) return res.sendStatus(400);
+  if (!await isAdmin(sessionUid)) return res.sendStatus(403);
+  await getConnection()
+      .createQueryBuilder()
+      .delete()
+      .from(User)
+      .where('id = :id', {id})
+      .execute();
+  res.sendStatus(200);
+};
