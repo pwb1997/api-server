@@ -4,6 +4,7 @@ import Company from './company.model';
 import Country from './country.model';
 import {DefaultEntity} from './template.model';
 import PriceType from './price-type.model';
+import ProductFolder from './product-folder';
 import User from './user.model';
 
 export enum UserGroupType {

@@ -1,6 +1,7 @@
-import {Column, Entity, ManyToOne, OneToMany} from 'typeorm';
+import {Column, Entity, ManyToMany, ManyToOne, OneToMany} from 'typeorm';
 import Archive from './archive.model';
 import {DefaultEntity} from './template.model';
+import Product from './product.model';
 import UserGroup from './user-group.model';
 
 @Entity('user')
@@ -16,4 +17,7 @@ export default class User extends DefaultEntity {
 
   @OneToMany((type) => Archive, (archive) => archive.user)
   archives?: Archive[];
+
+  @ManyToMany((type) => Product, (product) => product.interestedUsers)
+  interest?: Product[];
 }
