@@ -1334,3 +1334,886 @@
 {"message":"uid1@::1 GET /company/ 200 7.119 ms","level":"info","timestamp":"2020-01-20T11:29:53.114Z"}
 {"message":"uid1@::1 DELETE /company/1 200 8.487 ms","level":"info","timestamp":"2020-01-20T11:30:06.111Z"}
 {"message":"uid1@::1 GET /company/ 200 5.778 ms","level":"info","timestamp":"2020-01-20T11:30:08.337Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T02:39:07.265Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T02:39:07.281Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T02:39:07.295Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T02:39:07.351Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T02:39:07.352Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T02:39:07.352Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T02:39:07.356Z"}
+{"message":"guest@::1 GET /company/ 403 4.494 ms","level":"info","timestamp":"2020-01-21T02:39:12.393Z"}
+{"message":"uid1@::1 POST /auth/login 200 34.848 ms","level":"info","timestamp":"2020-01-21T02:39:18.203Z"}
+{"message":"uid1@::1 GET /auth/check 200 7.511 ms","level":"info","timestamp":"2020-01-21T02:39:20.803Z"}
+{"message":"uid1@::1 GET /user 200 15.172 ms","level":"info","timestamp":"2020-01-21T02:40:05.046Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T02:42:37.723Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T02:42:37.741Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T02:42:37.756Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T02:42:37.813Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T02:42:37.814Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T02:42:37.815Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T02:42:37.819Z"}
+{"message":"uid1@::1 POST /auth/login 200 38.782 ms","level":"info","timestamp":"2020-01-21T02:42:46.982Z"}
+{"message":"uid1@::1 GET /user 200 13.684 ms","level":"info","timestamp":"2020-01-21T02:42:49.195Z"}
+{"message":"guest@::1 GET /auth/logout 200 1.125 ms","level":"info","timestamp":"2020-01-21T02:42:53.449Z"}
+{"message":"guest@::1 GET /user 403 0.802 ms","level":"info","timestamp":"2020-01-21T02:42:54.948Z"}
+{"message":"uid1@::1 POST /auth/login 200 30.242 ms","level":"info","timestamp":"2020-01-21T02:42:58.869Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T02:43:37.985Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T02:43:38.002Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T02:43:38.017Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T02:43:38.072Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T02:43:38.073Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T02:43:38.074Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T02:43:38.085Z"}
+{"message":"uid1@::1 POST /auth/login 200 35.744 ms","level":"info","timestamp":"2020-01-21T02:43:43.025Z"}
+{"message":"uid1@::1 GET /user 200 13.097 ms","level":"info","timestamp":"2020-01-21T02:43:44.726Z"}
+{"message":"database connection denied at 127.0.0.1:3306, exiting","level":"error","timestamp":"2020-01-21T02:46:04.897Z"}
+{"message":"database connection denied at 127.0.0.1:3306, exiting","level":"error","timestamp":"2020-01-21T02:46:24.729Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T02:49:02.210Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T02:49:02.226Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T02:49:02.241Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T02:49:02.295Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T02:49:02.296Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T02:49:02.296Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T02:49:02.300Z"}
+{"message":"guest@::1 GET /user 403 5.626 ms","level":"info","timestamp":"2020-01-21T02:49:09.803Z"}
+{"message":"uid1@::1 POST /auth/login 200 34.991 ms","level":"info","timestamp":"2020-01-21T02:49:12.639Z"}
+{"message":"uid1@::1 GET /user 200 13.966 ms","level":"info","timestamp":"2020-01-21T02:49:14.611Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T02:53:09.382Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T02:53:09.399Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T02:53:09.414Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T02:53:09.477Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T02:53:09.477Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T02:53:09.478Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T02:53:09.482Z"}
+{"message":"guest@::1 GET /user 403 6.041 ms","level":"info","timestamp":"2020-01-21T02:53:10.744Z"}
+{"message":"uid1@::1 POST /auth/login 200 32.156 ms","level":"info","timestamp":"2020-01-21T02:53:13.206Z"}
+{"message":"uid1@::1 GET /user 200 14.839 ms","level":"info","timestamp":"2020-01-21T02:53:14.613Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T02:55:20.003Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T02:55:20.019Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T02:55:20.033Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T02:55:20.089Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T02:55:20.090Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T02:55:20.090Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T02:55:20.094Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T02:55:34.733Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T02:55:34.755Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T02:55:34.798Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T02:55:34.848Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T02:55:34.849Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T02:55:34.850Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T02:55:34.853Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:09:04.485Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:09:04.500Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:09:04.516Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:09:04.574Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:09:04.575Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:09:04.576Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:09:04.580Z"}
+{"message":"uid1@::1 POST /auth/login 200 37.175 ms","level":"info","timestamp":"2020-01-21T04:09:12.443Z"}
+{"message":"uid1@::1 GET /user 403 9.503 ms","level":"info","timestamp":"2020-01-21T04:09:13.995Z"}
+{"message":"uid1@::1 POST /auth/login 200 29.102 ms","level":"info","timestamp":"2020-01-21T04:09:16.652Z"}
+{"message":"uid1@::1 GET /user 403 2.935 ms","level":"info","timestamp":"2020-01-21T04:09:18.217Z"}
+{"message":"uid1@::1 GET /auth/check 200 3.482 ms","level":"info","timestamp":"2020-01-21T04:09:20.697Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:10:05.972Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:10:05.990Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:10:06.006Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:10:06.064Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:10:06.065Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:10:06.066Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:10:06.069Z"}
+{"message":"guest@::1 GET /auth/check 401 6.086 ms","level":"info","timestamp":"2020-01-21T04:10:12.203Z"}
+{"message":"uid1@::1 POST /auth/login 200 36.938 ms","level":"info","timestamp":"2020-01-21T04:10:14.154Z"}
+{"message":"uid1@::1 GET /auth/check 200 5.034 ms","level":"info","timestamp":"2020-01-21T04:10:16.930Z"}
+{"message":"uid1@::1 GET /user 403 15.142 ms","level":"info","timestamp":"2020-01-21T04:10:21.363Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:11:01.605Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:11:01.621Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:11:01.635Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:11:01.688Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:11:01.689Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:11:01.689Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:11:01.693Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:11:50.852Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:11:50.867Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:11:50.882Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:11:50.935Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:11:50.936Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:11:50.937Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:11:50.941Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:12:57.981Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:12:57.996Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:12:58.012Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:12:58.065Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:12:58.065Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:12:58.066Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:12:58.069Z"}
+{"message":"uid1@::1 POST /auth/login 200 36.420 ms","level":"info","timestamp":"2020-01-21T04:13:16.528Z"}
+{"message":"uid1@::1 GET /auth/check 200 3.846 ms","level":"info","timestamp":"2020-01-21T04:13:18.089Z"}
+{"message":"uid1@::1 GET /country/ 200 28.749 ms","level":"info","timestamp":"2020-01-21T04:13:22.796Z"}
+{"message":"uid1@::1 GET /user 200 19.957 ms","level":"info","timestamp":"2020-01-21T04:13:25.633Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:14:30.382Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:14:30.398Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:14:30.413Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:14:30.469Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:14:30.470Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:14:30.471Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:14:30.475Z"}
+{"message":"uid1@::ffff:127.0.0.1 POST /auth/login 200 32.762 ms","level":"info","timestamp":"2020-01-21T04:14:30.573Z"}
+{"message":"uid1@::ffff:127.0.0.1 GET /user 200 55.714 ms","level":"info","timestamp":"2020-01-21T04:14:32.348Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:15:08.161Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:15:08.176Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:15:08.192Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:15:08.247Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:15:08.248Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:15:08.248Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:15:08.252Z"}
+{"message":"guest@::1 GET /user 403 5.468 ms","level":"info","timestamp":"2020-01-21T04:15:14.393Z"}
+{"message":"uid1@::1 POST /auth/login 200 36.904 ms","level":"info","timestamp":"2020-01-21T04:15:16.199Z"}
+{"message":"uid1@::1 GET /user 403 8.069 ms","level":"info","timestamp":"2020-01-21T04:15:17.939Z"}
+{"message":"uid1@::1 GET /user 403 3.089 ms","level":"info","timestamp":"2020-01-21T04:15:19.063Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:15:50.079Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:15:50.094Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:15:50.109Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:15:50.162Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:15:50.163Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:15:50.163Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:15:50.167Z"}
+{"message":"uid1@::1 POST /auth/login 200 35.527 ms","level":"info","timestamp":"2020-01-21T04:16:01.857Z"}
+{"message":"uid1@::1 GET /user 403 8.735 ms","level":"info","timestamp":"2020-01-21T04:16:03.711Z"}
+{"message":"uid1@::1 GET /user 403 3.510 ms","level":"info","timestamp":"2020-01-21T04:16:04.801Z"}
+{"message":"uid1@::1 POST /auth/login 200 28.338 ms","level":"info","timestamp":"2020-01-21T04:16:06.787Z"}
+{"message":"uid1@::1 POST /auth/login 200 29.837 ms","level":"info","timestamp":"2020-01-21T04:16:07.467Z"}
+{"message":"uid1@::1 GET /user 403 3.186 ms","level":"info","timestamp":"2020-01-21T04:16:09.187Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:24:33.691Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:24:33.707Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:24:33.722Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:24:33.775Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:24:33.776Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:24:33.776Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:24:33.780Z"}
+{"message":"uid1@::1 POST /auth/login 200 37.217 ms","level":"info","timestamp":"2020-01-21T04:24:41.177Z"}
+{"message":"uid1@::1 GET /auth/check 200 5.521 ms","level":"info","timestamp":"2020-01-21T04:24:43.572Z"}
+{"message":"uid1@::1 GET /user 403 7.815 ms","level":"info","timestamp":"2020-01-21T04:24:45.472Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:26:21.931Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:26:21.947Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:26:21.961Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:26:22.013Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:26:22.014Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:26:22.015Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:26:22.023Z"}
+{"message":"uid1@::1 POST /auth/login 200 35.124 ms","level":"info","timestamp":"2020-01-21T04:26:31.272Z"}
+{"message":"uid1@::1 GET /user 403 6.482 ms","level":"info","timestamp":"2020-01-21T04:26:32.638Z"}
+{"message":"uid1@::1 GET /user 403 3.370 ms","level":"info","timestamp":"2020-01-21T04:26:34.277Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:26:57.738Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:26:57.755Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:26:57.769Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:26:57.823Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:26:57.824Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:26:57.824Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:26:57.828Z"}
+{"message":"guest@::1 GET /user 403 5.623 ms","level":"info","timestamp":"2020-01-21T04:27:00.053Z"}
+{"message":"uid1@::1 POST /auth/login 200 32.087 ms","level":"info","timestamp":"2020-01-21T04:27:03.867Z"}
+{"message":"uid1@::1 GET /user 403 7.793 ms","level":"info","timestamp":"2020-01-21T04:27:05.302Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:29:01.256Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:29:01.271Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:29:01.286Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:29:01.338Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:29:01.339Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:29:01.340Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:29:01.343Z"}
+{"message":"uid1@::1 POST /auth/login 200 35.465 ms","level":"info","timestamp":"2020-01-21T04:29:08.332Z"}
+{"message":"uid1@::1 GET /user 200 33.039 ms","level":"info","timestamp":"2020-01-21T04:29:09.904Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:31:50.056Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:31:50.072Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:31:50.087Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:31:50.135Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:31:50.137Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:31:50.138Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:31:50.146Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:32:03.956Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:32:03.972Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:32:03.987Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:32:04.037Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:32:04.039Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:32:04.039Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:32:04.043Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:32:22.889Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:32:22.905Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:32:22.920Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:32:22.971Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:32:22.973Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:32:22.974Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:32:22.981Z"}
+{"message":"guest@::1 GET /user 403 6.502 ms","level":"info","timestamp":"2020-01-21T04:32:35.366Z"}
+{"message":"uid1@::1 POST /auth/login 200 32.811 ms","level":"info","timestamp":"2020-01-21T04:32:41.418Z"}
+{"message":"uid1@::1 GET /auth/check 200 3.086 ms","level":"info","timestamp":"2020-01-21T04:32:42.950Z"}
+{"message":"uid1@::1 GET /user 403 1.987 ms","level":"info","timestamp":"2020-01-21T04:32:44.909Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:33:24.503Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:33:24.519Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:33:24.534Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:33:24.584Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:33:24.585Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:33:24.586Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:33:24.594Z"}
+{"message":"uid1@::1 POST /auth/login 200 36.446 ms","level":"info","timestamp":"2020-01-21T04:33:28.695Z"}
+{"message":"uid1@::1 GET /user 403 2.783 ms","level":"info","timestamp":"2020-01-21T04:33:30.074Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:34:02.281Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:34:02.298Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:34:02.315Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:34:02.369Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:34:02.369Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:34:02.370Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:34:02.374Z"}
+{"message":"uid1@::1 POST /auth/login 200 34.629 ms","level":"info","timestamp":"2020-01-21T04:34:09.664Z"}
+{"message":"uid1@::1 GET /user 403 3.694 ms","level":"info","timestamp":"2020-01-21T04:34:10.954Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:34:31.460Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:34:31.476Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:34:31.490Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:34:31.541Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:34:31.542Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:34:31.543Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:34:31.551Z"}
+{"message":"uid1@::1 POST /auth/login 200 37.818 ms","level":"info","timestamp":"2020-01-21T04:34:34.699Z"}
+{"message":"uid1@::1 GET /user 403 3.752 ms","level":"info","timestamp":"2020-01-21T04:34:36.078Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:36:34.994Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:36:35.010Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:36:35.026Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:36:35.076Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:36:35.078Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:36:35.079Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:36:35.087Z"}
+{"message":"uid1@::1 POST /auth/login 200 38.635 ms","level":"info","timestamp":"2020-01-21T04:36:41.559Z"}
+{"message":"uid1@::1 GET /user 403 4.189 ms","level":"info","timestamp":"2020-01-21T04:36:44.359Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:37:01.613Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:37:01.629Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:37:01.643Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:37:01.695Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:37:01.696Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:37:01.697Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:37:01.700Z"}
+{"message":"uid1@::1 POST /auth/login 200 33.889 ms","level":"info","timestamp":"2020-01-21T04:37:04.900Z"}
+{"message":"uid1@::1 GET /user 403 3.741 ms","level":"info","timestamp":"2020-01-21T04:37:06.467Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:38:29.779Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:38:29.795Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:38:29.811Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:38:29.861Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:38:29.862Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:38:29.863Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:38:29.871Z"}
+{"message":"guest@::1 GET /user 403 6.544 ms","level":"info","timestamp":"2020-01-21T04:38:32.378Z"}
+{"message":"uid1@::1 POST /auth/login 200 33.920 ms","level":"info","timestamp":"2020-01-21T04:38:35.401Z"}
+{"message":"uid1@::1 GET /user 200 12.354 ms","level":"info","timestamp":"2020-01-21T04:38:37.277Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:38:59.579Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:38:59.594Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:38:59.609Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:38:59.659Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:38:59.660Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:38:59.661Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:38:59.669Z"}
+{"message":"guest@::1 GET /user 403 5.786 ms","level":"info","timestamp":"2020-01-21T04:39:03.838Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:39:43.767Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:39:43.782Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:39:43.796Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:39:43.848Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:39:43.849Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:39:43.850Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:39:43.858Z"}
+{"message":"guest@::1 GET /user 403 5.929 ms","level":"info","timestamp":"2020-01-21T04:39:58.867Z"}
+{"message":"uid1@::1 POST /auth/login 200 33.959 ms","level":"info","timestamp":"2020-01-21T04:40:00.544Z"}
+{"message":"uid1@::1 GET /user 200 10.647 ms","level":"info","timestamp":"2020-01-21T04:40:02.426Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:41:10.332Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:41:10.346Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:41:10.360Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:41:10.415Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:41:10.416Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:41:10.416Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:41:10.424Z"}
+{"message":"guest@::1 GET /user 403 5.858 ms","level":"info","timestamp":"2020-01-21T04:41:15.374Z"}
+{"message":"uid1@::1 POST /auth/login 200 33.556 ms","level":"info","timestamp":"2020-01-21T04:41:18.110Z"}
+{"message":"uid1@::1 GET /user 403 8.276 ms","level":"info","timestamp":"2020-01-21T04:41:20.787Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:41:37.872Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:41:37.889Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:41:37.906Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:41:37.963Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:41:37.963Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:41:37.964Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:41:37.968Z"}
+{"message":"guest@::ffff:127.0.0.1 GET /user 403 5.925 ms","level":"info","timestamp":"2020-01-21T04:41:38.391Z"}
+{"message":"uid1@::ffff:127.0.0.1 POST /auth/login 200 32.471 ms","level":"info","timestamp":"2020-01-21T04:41:39.780Z"}
+{"message":"uid1@::ffff:127.0.0.1 GET /user 403 7.799 ms","level":"info","timestamp":"2020-01-21T04:41:41.361Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:42:44.753Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:42:44.769Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:42:44.783Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:42:44.840Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:42:44.841Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:42:44.842Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:42:44.845Z"}
+{"message":"guest@::1 GET /user 403 6.527 ms","level":"info","timestamp":"2020-01-21T04:43:04.494Z"}
+{"message":"uid1@::1 POST /auth/login 200 33.199 ms","level":"info","timestamp":"2020-01-21T04:43:07.379Z"}
+{"message":"uid1@::1 GET /user 403 8.249 ms","level":"info","timestamp":"2020-01-21T04:43:09.763Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:43:30.230Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:43:30.245Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:43:30.260Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:43:30.316Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:43:30.317Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:43:30.318Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:43:30.321Z"}
+{"message":"guest@::1 GET /user 403 6.380 ms","level":"info","timestamp":"2020-01-21T04:43:34.813Z"}
+{"message":"uid1@::1 POST /auth/login 200 32.155 ms","level":"info","timestamp":"2020-01-21T04:43:36.779Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:44:03.956Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:44:03.972Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:44:03.987Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:44:04.037Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:44:04.038Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:44:04.039Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:44:04.042Z"}
+{"message":"uid1@::1 POST /auth/login 200 35.602 ms","level":"info","timestamp":"2020-01-21T04:44:15.644Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:53:14.078Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:53:14.094Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:53:14.109Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:53:14.161Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:53:14.163Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:53:14.163Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:53:14.167Z"}
+{"message":"guest@::1 GET /user 403 6.170 ms","level":"info","timestamp":"2020-01-21T04:53:20.663Z"}
+{"message":"uid1@::1 POST /auth/login 200 35.584 ms","level":"info","timestamp":"2020-01-21T04:53:23.089Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:54:37.767Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:54:37.782Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:54:37.798Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:54:37.849Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:54:37.852Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:54:37.852Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:54:37.856Z"}
+{"message":"guest@::1 GET /user 403 5.812 ms","level":"info","timestamp":"2020-01-21T04:54:41.405Z"}
+{"message":"uid1@::1 POST /auth/login 200 31.792 ms","level":"info","timestamp":"2020-01-21T04:54:43.012Z"}
+{"message":"uid1@::1 GET /user 200 45.797 ms","level":"info","timestamp":"2020-01-21T04:54:44.296Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:55:15.448Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:55:15.464Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:55:15.478Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:55:15.531Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:55:15.532Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:55:15.533Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:55:15.537Z"}
+{"message":"uid1@::1 POST /auth/login 200 36.235 ms","level":"info","timestamp":"2020-01-21T04:55:19.432Z"}
+{"message":"uid1@::1 GET /user 200 29.098 ms","level":"info","timestamp":"2020-01-21T04:55:20.484Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T04:55:59.101Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T04:55:59.118Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T04:55:59.133Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T04:55:59.186Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T04:55:59.187Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T04:55:59.188Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T04:55:59.192Z"}
+{"message":"uid1@::1 POST /auth/login 200 36.740 ms","level":"info","timestamp":"2020-01-21T04:55:59.470Z"}
+{"message":"uid1@::1 GET /user 403 10.779 ms","level":"info","timestamp":"2020-01-21T04:56:00.741Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T05:01:10.962Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T05:01:10.977Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T05:01:10.992Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T05:01:11.043Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T05:01:11.044Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T05:01:11.045Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T05:01:11.049Z"}
+{"message":"uid1@::1 POST /auth/login 200 35.168 ms","level":"info","timestamp":"2020-01-21T05:01:17.565Z"}
+{"message":"uid1@::1 GET /user 200 29.502 ms","level":"info","timestamp":"2020-01-21T05:01:18.761Z"}
+{"message":"uid1@::1 GET /user/1 400 1.526 ms","level":"info","timestamp":"2020-01-21T05:02:07.685Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T05:02:23.696Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T05:02:23.711Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T05:02:23.729Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T05:02:23.788Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T05:02:23.789Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T05:02:23.789Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T05:02:23.793Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T05:02:48.823Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T05:02:48.838Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T05:02:48.856Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T05:02:48.909Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T05:02:48.910Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T05:02:48.911Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T05:02:48.914Z"}
+{"message":"guest@::1 GET /user/1 403 6.744 ms","level":"info","timestamp":"2020-01-21T05:02:56.942Z"}
+{"message":"uid1@::1 POST /auth/login 200 55.439 ms","level":"info","timestamp":"2020-01-21T05:02:58.828Z"}
+{"message":"uid1@::1 GET /user 200 12.901 ms","level":"info","timestamp":"2020-01-21T05:03:01.802Z"}
+{"message":"uid1@::1 GET /user 200 8.314 ms","level":"info","timestamp":"2020-01-21T05:03:06.134Z"}
+{"message":"uid1@::1 GET /user/1 200 37.715 ms","level":"info","timestamp":"2020-01-21T05:03:08.456Z"}
+{"message":"uid1@::1 GET /user/2 404 6.772 ms","level":"info","timestamp":"2020-01-21T05:03:12.981Z"}
+{"message":"uid1@::1 GET /user/3 404 7.190 ms","level":"info","timestamp":"2020-01-21T05:03:16.084Z"}
+{"message":"uid1@::1 GET /user/1 200 9.308 ms","level":"info","timestamp":"2020-01-21T05:03:18.322Z"}
+{"message":"uid1@::1 PUT /user/1 409 6.829 ms","level":"info","timestamp":"2020-01-21T05:46:38.960Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T05:47:15.382Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T05:47:15.397Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T05:47:15.411Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T05:47:15.464Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T05:47:15.465Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T05:47:15.466Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T05:47:15.469Z"}
+{"message":"guest@::1 PUT /user/1 409 29.799 ms","level":"info","timestamp":"2020-01-21T05:49:13.578Z"}
+{"message":"guest@::1 PUT /user/1 409 2.788 ms","level":"info","timestamp":"2020-01-21T05:49:15.110Z"}
+{"message":"uid1@::1 POST /auth/login 200 30.979 ms","level":"info","timestamp":"2020-01-21T05:49:18.148Z"}
+{"message":"uid1@::1 GET /auth/check 200 3.683 ms","level":"info","timestamp":"2020-01-21T05:49:21.509Z"}
+{"message":"uid1@::1 PUT /user/1 409 23.930 ms","level":"info","timestamp":"2020-01-21T05:49:24.540Z"}
+{"message":"uid1@::1 GET /user 200 12.804 ms","level":"info","timestamp":"2020-01-21T05:49:27.701Z"}
+{"message":"uid1@::1 GET /user/1 200 12.502 ms","level":"info","timestamp":"2020-01-21T05:49:31.258Z"}
+{"message":"uid1@::1 GET /user/22 404 6.699 ms","level":"info","timestamp":"2020-01-21T05:49:35.950Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T05:57:38.583Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T05:57:38.599Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T05:57:38.614Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T05:57:38.670Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T05:57:38.670Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T05:57:38.671Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T05:57:38.675Z"}
+{"message":"guest@::1 PUT /user/1 400 6.530 ms","level":"info","timestamp":"2020-01-21T05:57:44.699Z"}
+{"message":"guest@::1 PUT /user/1 400 1.712 ms","level":"info","timestamp":"2020-01-21T05:57:46.972Z"}
+{"message":"guest@::1 PUT /user/1 400 0.985 ms","level":"info","timestamp":"2020-01-21T05:57:49.232Z"}
+{"message":"guest@::1 PUT /user/ 404 1.748 ms","level":"info","timestamp":"2020-01-21T05:57:51.573Z"}
+{"message":"guest@::1 PUT /user/1 400 0.739 ms","level":"info","timestamp":"2020-01-21T05:57:57.760Z"}
+{"message":"guest@::1 GET /user 403 0.795 ms","level":"info","timestamp":"2020-01-21T05:58:01.617Z"}
+{"message":"guest@::1 PUT /user/1 200 7.418 ms","level":"info","timestamp":"2020-01-21T05:58:34.003Z"}
+{"message":"guest@::1 GET /user 403 0.619 ms","level":"info","timestamp":"2020-01-21T05:58:43.678Z"}
+{"message":"guest@::1 PUT /user/1 200 3.187 ms","level":"info","timestamp":"2020-01-21T05:58:46.980Z"}
+{"message":"guest@::1 POST /auth/login 401 4.000 ms","level":"info","timestamp":"2020-01-21T05:58:51.379Z"}
+{"message":"guest@::1 POST /auth/login 401 2.329 ms","level":"info","timestamp":"2020-01-21T05:58:52.625Z"}
+{"message":"guest@::1 POST /auth/login 401 2.233 ms","level":"info","timestamp":"2020-01-21T05:58:53.197Z"}
+{"message":"guest@::1 GET /auth/check 401 0.776 ms","level":"info","timestamp":"2020-01-21T05:59:02.051Z"}
+{"message":"guest@::1 PUT /user/1 200 7.799 ms","level":"info","timestamp":"2020-01-21T05:59:07.282Z"}
+{"message":"guest@::1 GET /user 403 0.553 ms","level":"info","timestamp":"2020-01-21T05:59:09.613Z"}
+{"message":"guest@::1 PUT /user/1 200 4.100 ms","level":"info","timestamp":"2020-01-21T05:59:11.356Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:01:05.449Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:01:05.465Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:01:05.478Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:01:05.533Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:01:05.534Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:01:05.535Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:01:05.543Z"}
+{"message":"guest@::1 PUT /user/1 200 19.084 ms","level":"info","timestamp":"2020-01-21T06:01:08.187Z"}
+{"message":"guest@::1 PUT /user/1 409 6.455 ms","level":"info","timestamp":"2020-01-21T06:01:40.127Z"}
+{"message":"guest@::1 PUT /user/1 400 1.376 ms","level":"info","timestamp":"2020-01-21T06:02:31.025Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:03:06.146Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:03:06.162Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:03:06.177Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:03:06.230Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:03:06.231Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:03:06.232Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:03:06.236Z"}
+{"message":"guest@::1 PUT /user/1 400 9.032 ms","level":"info","timestamp":"2020-01-21T06:03:09.856Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:03:29.000Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:03:29.016Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:03:29.033Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:03:29.090Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:03:29.090Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:03:29.091Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:03:29.095Z"}
+{"message":"guest@::1 PUT /user/1 400 15.068 ms","level":"info","timestamp":"2020-01-21T06:03:36.780Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:05:07.856Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:05:07.871Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:05:07.886Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:05:07.939Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:05:07.940Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:05:07.940Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:05:07.944Z"}
+{"message":"guest@::1 PUT /user/1 400 7.510 ms","level":"info","timestamp":"2020-01-21T06:05:30.517Z"}
+{"message":"guest@::1 PUT /user/1 400 1.092 ms","level":"info","timestamp":"2020-01-21T06:05:31.896Z"}
+{"message":"guest@::1 PUT /user/1 403 0.812 ms","level":"info","timestamp":"2020-01-21T06:05:34.846Z"}
+{"message":"uid1@::1 POST /auth/login 200 32.953 ms","level":"info","timestamp":"2020-01-21T06:05:50.022Z"}
+{"message":"uid1@::1 GET /auth/check 200 4.922 ms","level":"info","timestamp":"2020-01-21T06:05:52.245Z"}
+{"message":"uid1@::1 GET /user 200 29.971 ms","level":"info","timestamp":"2020-01-21T06:05:54.011Z"}
+{"message":"uid1@::1 GET /user/22 404 8.000 ms","level":"info","timestamp":"2020-01-21T06:05:57.686Z"}
+{"message":"uid1@::1 GET /user/1 200 19.654 ms","level":"info","timestamp":"2020-01-21T06:05:59.301Z"}
+{"message":"uid1@::1 PUT /user/1 200 13.899 ms","level":"info","timestamp":"2020-01-21T06:06:05.007Z"}
+{"message":"uid1@::1 GET /user/1 200 7.117 ms","level":"info","timestamp":"2020-01-21T06:06:07.891Z"}
+{"message":"uid1@::1 GET /user 200 13.271 ms","level":"info","timestamp":"2020-01-21T06:06:15.741Z"}
+{"message":"uid1@::1 PUT /user/1 200 11.308 ms","level":"info","timestamp":"2020-01-21T06:06:20.284Z"}
+{"message":"uid1@::1 PUT /user/1 409 15.100 ms","level":"info","timestamp":"2020-01-21T06:06:25.209Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:06:57.885Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:06:57.901Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:06:57.916Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:06:57.970Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:06:57.971Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:06:57.972Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:06:57.976Z"}
+{"message":"guest@::1 PUT /user/1 403 7.025 ms","level":"info","timestamp":"2020-01-21T06:07:01.150Z"}
+{"message":"uid1@::1 POST /auth/login 200 34.317 ms","level":"info","timestamp":"2020-01-21T06:07:04.154Z"}
+{"message":"uid1@::1 PUT /user/1 409 63.919 ms","level":"info","timestamp":"2020-01-21T06:07:06.220Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:09:10.475Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:09:10.490Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:09:10.506Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:09:10.559Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:09:10.560Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:09:10.560Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:09:10.564Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:09:29.047Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:09:29.062Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:09:29.077Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:09:29.130Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:09:29.131Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:09:29.132Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:09:29.135Z"}
+{"message":"guest@::1 PUT /user/1 403 6.831 ms","level":"info","timestamp":"2020-01-21T06:10:38.277Z"}
+{"message":"uid1@::1 POST /auth/login 200 35.044 ms","level":"info","timestamp":"2020-01-21T06:10:41.097Z"}
+{"message":"uid1@::1 PUT /user/1 409 49.204 ms","level":"info","timestamp":"2020-01-21T06:10:52.831Z"}
+{"message":"uid1@::1 PUT /user/1 409 32.552 ms","level":"info","timestamp":"2020-01-21T06:10:55.655Z"}
+{"message":"uid1@::1 PUT /user/1 200 12.275 ms","level":"info","timestamp":"2020-01-21T06:10:59.201Z"}
+{"message":"uid1@::1 PUT /user/1 400 1.368 ms","level":"info","timestamp":"2020-01-21T06:11:24.334Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:12:30.226Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:12:30.243Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:12:30.261Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:12:30.320Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:12:30.322Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:12:30.322Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:12:30.326Z"}
+{"message":"uid1@::ffff:127.0.0.1 POST /auth/login 200 34.927 ms","level":"info","timestamp":"2020-01-21T06:12:30.512Z"}
+{"message":"uid1@::ffff:127.0.0.1 GET /user 200 12.445 ms","level":"info","timestamp":"2020-01-21T06:12:33.197Z"}
+{"message":"uid1@::ffff:127.0.0.1 GET /user/1 200 21.825 ms","level":"info","timestamp":"2020-01-21T06:12:35.221Z"}
+{"message":"uid1@::ffff:127.0.0.1 PUT /user/1 400 0.994 ms","level":"info","timestamp":"2020-01-21T06:12:37.768Z"}
+{"message":"uid1@::1 PUT /user/1 409 48.386 ms","level":"info","timestamp":"2020-01-21T06:13:02.161Z"}
+{"message":"uid1@::1 PUT /user/1 409 25.497 ms","level":"info","timestamp":"2020-01-21T06:13:07.515Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:13:54.669Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:13:54.687Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:13:54.702Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:13:54.758Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:13:54.758Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:13:54.759Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:13:54.763Z"}
+{"message":"guest@::ffff:127.0.0.1 PUT /user/1 400 6.582 ms","level":"info","timestamp":"2020-01-21T06:13:55.267Z"}
+{"message":"uid1@::ffff:127.0.0.1 POST /auth/login 200 33.043 ms","level":"info","timestamp":"2020-01-21T06:13:56.838Z"}
+{"message":"uid1@::ffff:127.0.0.1 PUT /user/1 400 1.194 ms","level":"info","timestamp":"2020-01-21T06:14:00.989Z"}
+{"message":"uid1@::ffff:127.0.0.1 PUT /user/1 409 39.215 ms","level":"info","timestamp":"2020-01-21T06:14:03.990Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:21:14.932Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:21:14.950Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:21:14.966Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:21:15.024Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:21:15.026Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:21:15.026Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:21:15.030Z"}
+{"message":"guest@::1 PUT /user/1 400 22.482 ms","level":"info","timestamp":"2020-01-21T06:22:10.911Z"}
+{"message":"guest@::1 PUT /user/1 400 1.433 ms","level":"info","timestamp":"2020-01-21T06:22:13.214Z"}
+{"message":"uid1@::1 POST /auth/login 200 39.486 ms","level":"info","timestamp":"2020-01-21T06:22:15.808Z"}
+{"message":"uid1@::1 POST /user - - ms","level":"info","timestamp":"2020-01-21T06:22:40.854Z"}
+{"message":"uid1@::1 POST /user - - ms","level":"info","timestamp":"2020-01-21T06:22:49.328Z"}
+{"message":"uid1@::1 POST /user - - ms","level":"info","timestamp":"2020-01-21T06:22:55.399Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:24:08.899Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:24:08.915Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:24:08.931Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:24:08.983Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:24:08.984Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:24:08.985Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:24:08.989Z"}
+{"message":"guest@::1 POST /user 403 6.567 ms","level":"info","timestamp":"2020-01-21T06:24:50.328Z"}
+{"message":"guest@::1 PUT /user/1 400 15.823 ms","level":"info","timestamp":"2020-01-21T06:25:00.015Z"}
+{"message":"guest@::1 PUT /user/1 400 1.092 ms","level":"info","timestamp":"2020-01-21T06:25:15.277Z"}
+{"message":"uid1@::1 POST /auth/login 200 33.011 ms","level":"info","timestamp":"2020-01-21T06:25:33.638Z"}
+{"message":"uid1@::1 PUT /user/1 400 1.437 ms","level":"info","timestamp":"2020-01-21T06:25:37.676Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:26:08.099Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:26:08.115Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:26:08.129Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:26:08.180Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:26:08.181Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:26:08.182Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:26:08.190Z"}
+{"message":"guest@::1 PUT /user/1 400 22.244 ms","level":"info","timestamp":"2020-01-21T06:26:14.005Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:28:10.973Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:28:10.988Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:28:11.003Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:28:11.056Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:28:11.057Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:28:11.058Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:28:11.061Z"}
+{"message":"guest@::1 PUT /user/1 400 29.420 ms","level":"info","timestamp":"2020-01-21T06:28:14.371Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:31:49.023Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:31:49.039Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:31:49.053Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:31:49.104Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:31:49.106Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:31:49.107Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:31:49.115Z"}
+{"message":"guest@::1 PUT /user/1 400 20.693 ms","level":"info","timestamp":"2020-01-21T06:32:27.214Z"}
+{"message":"guest@::1 PUT /user/1 400 1.361 ms","level":"info","timestamp":"2020-01-21T06:32:29.665Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:34:26.426Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:34:26.442Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:34:26.455Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:34:26.506Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:34:26.507Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:34:26.508Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:34:26.512Z"}
+{"message":"guest@::1 PUT /user/1 403 6.380 ms","level":"info","timestamp":"2020-01-21T06:34:41.817Z"}
+{"message":"guest@::1 PUT /user/1 403 1.159 ms","level":"info","timestamp":"2020-01-21T06:34:43.925Z"}
+{"message":"guest@::1 PUT /user/1 400 0.663 ms","level":"info","timestamp":"2020-01-21T06:34:45.739Z"}
+{"message":"guest@::1 PUT /user/1 403 0.595 ms","level":"info","timestamp":"2020-01-21T06:34:48.668Z"}
+{"message":"guest@::1 PUT /user/a 400 0.728 ms","level":"info","timestamp":"2020-01-21T06:35:10.909Z"}
+{"message":"guest@::1 PUT /user/1 403 0.583 ms","level":"info","timestamp":"2020-01-21T06:35:15.038Z"}
+{"message":"guest@::1 PUT /user/1 403 0.582 ms","level":"info","timestamp":"2020-01-21T06:35:17.038Z"}
+{"message":"guest@::1 PUT /user/1 403 0.647 ms","level":"info","timestamp":"2020-01-21T06:35:18.752Z"}
+{"message":"guest@::1 PUT /user/1 403 0.645 ms","level":"info","timestamp":"2020-01-21T06:35:21.360Z"}
+{"message":"guest@::1 PUT /user/1 400 0.711 ms","level":"info","timestamp":"2020-01-21T06:35:24.257Z"}
+{"message":"guest@::1 PUT /user/1 403 0.864 ms","level":"info","timestamp":"2020-01-21T06:35:26.448Z"}
+{"message":"uid1@::1 POST /auth/login 200 32.476 ms","level":"info","timestamp":"2020-01-21T06:35:28.995Z"}
+{"message":"uid1@::1 PUT /user/1 409 34.893 ms","level":"info","timestamp":"2020-01-21T06:35:35.846Z"}
+{"message":"uid1@::1 GET /user 200 8.224 ms","level":"info","timestamp":"2020-01-21T06:35:42.593Z"}
+{"message":"uid1@::1 PUT /user/1 409 23.459 ms","level":"info","timestamp":"2020-01-21T06:35:47.782Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:36:25.939Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:36:25.955Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:36:25.971Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:36:26.028Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:36:26.029Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:36:26.030Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:36:26.044Z"}
+{"message":"guest@::1 PUT /user/1 403 6.433 ms","level":"info","timestamp":"2020-01-21T06:37:09.572Z"}
+{"message":"uid1@::1 POST /auth/login 200 33.806 ms","level":"info","timestamp":"2020-01-21T06:37:12.863Z"}
+{"message":"uid1@::1 PUT /user/1 409 27.436 ms","level":"info","timestamp":"2020-01-21T06:37:17.249Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:37:57.099Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:37:57.114Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:37:57.128Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:37:57.192Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:37:57.193Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:37:57.194Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:37:57.208Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:38:48.303Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:38:48.318Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:38:48.333Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:38:48.389Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:38:48.391Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:38:48.392Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:38:48.396Z"}
+{"message":"uid1@::1 POST /auth/login 200 39.660 ms","level":"info","timestamp":"2020-01-21T06:38:51.860Z"}
+{"message":"uid1@::1 PUT /user/1 403 2.047 ms","level":"info","timestamp":"2020-01-21T06:38:54.190Z"}
+{"message":"uid1@::1 POST /auth/login 200 34.628 ms","level":"info","timestamp":"2020-01-21T06:38:58.525Z"}
+{"message":"uid1@::1 PUT /user/1 403 1.063 ms","level":"info","timestamp":"2020-01-21T06:39:02.220Z"}
+{"message":"uid1@::1 PUT /user/2 403 0.796 ms","level":"info","timestamp":"2020-01-21T06:39:21.221Z"}
+{"message":"uid1@::1 PUT /user/1 403 0.566 ms","level":"info","timestamp":"2020-01-21T06:39:25.735Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T06:56:10.743Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T06:56:10.760Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T06:56:10.775Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T06:56:10.829Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T06:56:10.830Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T06:56:10.831Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T06:56:10.834Z"}
+{"message":"guest@::1 PUT /user/1 403 6.339 ms","level":"info","timestamp":"2020-01-21T06:56:16.153Z"}
+{"message":"uid1@::1 POST /auth/login 200 37.821 ms","level":"info","timestamp":"2020-01-21T06:56:24.185Z"}
+{"message":"uid1@::1 PUT /user/1 403 3.121 ms","level":"info","timestamp":"2020-01-21T06:56:26.983Z"}
+{"message":"uid1@::1 PUT /user/1 403 2.147 ms","level":"info","timestamp":"2020-01-21T06:56:47.276Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:12:00.480Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:12:00.496Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:12:00.510Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:12:00.566Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:12:00.567Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:12:00.568Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:12:00.577Z"}
+{"message":"uid1@::1 POST /auth/login 200 38.454 ms","level":"info","timestamp":"2020-01-21T07:12:03.187Z"}
+{"message":"uid1@::1 PUT /user/1 200 118.036 ms","level":"info","timestamp":"2020-01-21T07:12:05.588Z"}
+{"message":"uid1@::1 PUT /user/1 403 33.364 ms","level":"info","timestamp":"2020-01-21T07:12:12.119Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:12:36.240Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:12:36.256Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:12:36.271Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:12:36.326Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:12:36.327Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:12:36.327Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:12:36.331Z"}
+{"message":"uid1@::1 POST /auth/login 200 37.976 ms","level":"info","timestamp":"2020-01-21T07:12:45.602Z"}
+{"message":"uid1@::1 GET /user 200 14.178 ms","level":"info","timestamp":"2020-01-21T07:12:54.436Z"}
+{"message":"uid1@::1 PUT /user/1 400 1.406 ms","level":"info","timestamp":"2020-01-21T07:12:57.954Z"}
+{"message":"uid1@::1 PUT /user/1 200 11.925 ms","level":"info","timestamp":"2020-01-21T07:13:00.770Z"}
+{"message":"uid1@::1 PUT /user/1 400 0.733 ms","level":"info","timestamp":"2020-01-21T07:13:03.843Z"}
+{"message":"uid1@::1 GET /user 200 6.098 ms","level":"info","timestamp":"2020-01-21T07:13:05.446Z"}
+{"message":"uid1@::1 PUT /user/1 403 0.576 ms","level":"info","timestamp":"2020-01-21T07:13:10.875Z"}
+{"message":"uid1@::1 PUT /user/1 400 0.630 ms","level":"info","timestamp":"2020-01-21T07:13:13.661Z"}
+{"message":"uid1@::1 PUT /user/1 403 0.519 ms","level":"info","timestamp":"2020-01-21T07:13:16.723Z"}
+{"message":"uid1@::1 PUT /user/1 403 29.565 ms","level":"info","timestamp":"2020-01-21T07:13:20.500Z"}
+{"message":"uid1@::1 PUT /user/1 403 29.112 ms","level":"info","timestamp":"2020-01-21T07:13:27.834Z"}
+{"message":"uid1@::1 PUT /user/1 403 29.846 ms","level":"info","timestamp":"2020-01-21T07:13:28.573Z"}
+{"message":"uid1@::1 PUT /user/1 200 32.591 ms","level":"info","timestamp":"2020-01-21T07:13:31.539Z"}
+{"message":"uid1@::1 PUT /user/1 403 2.226 ms","level":"info","timestamp":"2020-01-21T07:13:39.034Z"}
+{"message":"uid1@::1 GET /user 200 6.194 ms","level":"info","timestamp":"2020-01-21T07:13:46.009Z"}
+{"message":"uid1@::1 PUT /user/1 403 2.143 ms","level":"info","timestamp":"2020-01-21T07:13:59.034Z"}
+{"message":"uid1@::1 PUT /user/1 403 3.973 ms","level":"info","timestamp":"2020-01-21T07:15:08.981Z"}
+{"message":"uid1@::1 PUT /user/1 403 5.530 ms","level":"info","timestamp":"2020-01-21T07:15:10.984Z"}
+{"message":"uid1@::1 PUT /user/1 403 1.942 ms","level":"info","timestamp":"2020-01-21T07:15:14.327Z"}
+{"message":"uid1@::1 PUT /user/1 403 3.103 ms","level":"info","timestamp":"2020-01-21T07:15:18.151Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:16:41.610Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:16:41.626Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:16:41.641Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:16:41.696Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:16:41.696Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:16:41.697Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:16:41.702Z"}
+{"message":"uid1@::ffff:127.0.0.1 POST /auth/login 200 35.865 ms","level":"info","timestamp":"2020-01-21T07:16:42.072Z"}
+{"message":"uid1@::ffff:127.0.0.1 POST /auth/login 200 30.716 ms","level":"info","timestamp":"2020-01-21T07:16:43.085Z"}
+{"message":"uid1@::ffff:127.0.0.1 PUT /user/1 409 99.591 ms","level":"info","timestamp":"2020-01-21T07:16:46.664Z"}
+{"message":"uid1@::1 GET /user 200 32.870 ms","level":"info","timestamp":"2020-01-21T07:16:52.864Z"}
+{"message":"uid1@::1 GET /user 200 7.764 ms","level":"info","timestamp":"2020-01-21T07:16:55.487Z"}
+{"message":"uid1@::1 PUT /user/1 409 77.567 ms","level":"info","timestamp":"2020-01-21T07:17:04.251Z"}
+{"message":"uid1@::1 PUT /user/1 403 42.485 ms","level":"info","timestamp":"2020-01-21T07:17:08.442Z"}
+{"message":"uid1@::1 PUT /user/1 409 79.518 ms","level":"info","timestamp":"2020-01-21T07:17:11.899Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:17:55.894Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:17:55.909Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:17:55.925Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:17:55.977Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:17:55.978Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:17:55.979Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:17:55.983Z"}
+{"message":"uid1@::1 POST /auth/login 200 39.073 ms","level":"info","timestamp":"2020-01-21T07:17:57.221Z"}
+{"message":"uid1@::1 GET /user 200 19.918 ms","level":"info","timestamp":"2020-01-21T07:17:58.673Z"}
+{"message":"uid1@::1 PUT /user/1 200 147.478 ms","level":"info","timestamp":"2020-01-21T07:18:02.259Z"}
+{"message":"uid1@::1 GET /user 200 10.527 ms","level":"info","timestamp":"2020-01-21T07:18:04.119Z"}
+{"message":"uid1@::1 PUT /user/1 403 33.632 ms","level":"info","timestamp":"2020-01-21T07:18:06.224Z"}
+{"message":"uid1@::1 GET /user 200 11.050 ms","level":"info","timestamp":"2020-01-21T07:18:08.253Z"}
+{"message":"uid1@::1 PUT /user/1 403 36.290 ms","level":"info","timestamp":"2020-01-21T07:18:10.961Z"}
+{"message":"uid1@::1 PUT /user/1 403 34.126 ms","level":"info","timestamp":"2020-01-21T07:18:25.532Z"}
+{"message":"uid1@::1 PUT /user/1 409 43.024 ms","level":"info","timestamp":"2020-01-21T07:18:32.128Z"}
+{"message":"uid1@::1 PUT /user/1 200 5.995 ms","level":"info","timestamp":"2020-01-21T07:18:37.628Z"}
+{"message":"uid1@::1 PUT /user/1 400 0.530 ms","level":"info","timestamp":"2020-01-21T07:18:44.147Z"}
+{"message":"uid1@::1 PUT /user/1 200 11.855 ms","level":"info","timestamp":"2020-01-21T07:18:48.611Z"}
+{"message":"uid1@::1 GET /user 403 6.074 ms","level":"info","timestamp":"2020-01-21T07:18:52.276Z"}
+{"message":"uid1@::1 GET /user/1 403 13.918 ms","level":"info","timestamp":"2020-01-21T07:18:54.745Z"}
+{"message":"uid1@::1 PUT /user/1 200 7.427 ms","level":"info","timestamp":"2020-01-21T07:18:57.099Z"}
+{"message":"uid1@::1 GET /user 200 22.140 ms","level":"info","timestamp":"2020-01-21T07:19:19.894Z"}
+{"message":"uid1@::1 PUT /user/1 403 41.362 ms","level":"info","timestamp":"2020-01-21T07:19:47.202Z"}
+{"message":"uid1@::1 PUT /user/1 403 30.129 ms","level":"info","timestamp":"2020-01-21T07:19:51.133Z"}
+{"message":"uid1@::1 PUT /user/1 200 66.845 ms","level":"info","timestamp":"2020-01-21T07:19:53.941Z"}
+{"message":"uid1@::1 PUT /user/1 200 90.842 ms","level":"info","timestamp":"2020-01-21T07:19:56.830Z"}
+{"message":"uid1@::1 PUT /user/1 403 31.005 ms","level":"info","timestamp":"2020-01-21T07:19:57.794Z"}
+{"message":"uid1@::1 PUT /user/1 403 32.271 ms","level":"info","timestamp":"2020-01-21T07:19:59.866Z"}
+{"message":"uid1@::1 PUT /user/1 200 62.625 ms","level":"info","timestamp":"2020-01-21T07:20:03.041Z"}
+{"message":"uid1@::1 PUT /user/1 200 66.444 ms","level":"info","timestamp":"2020-01-21T07:20:06.071Z"}
+{"message":"uid1@::1 PUT /user/1 403 1.388 ms","level":"info","timestamp":"2020-01-21T07:20:08.574Z"}
+{"message":"uid1@::1 PUT /user/1 200 4.548 ms","level":"info","timestamp":"2020-01-21T07:20:11.127Z"}
+{"message":"uid1@::1 PUT /user/1 200 5.104 ms","level":"info","timestamp":"2020-01-21T07:20:26.936Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:21:38.375Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:21:38.391Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:21:38.405Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:21:38.458Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:21:38.459Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:21:38.460Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:21:38.468Z"}
+{"message":"uid1@::1 POST /auth/login 200 36.096 ms","level":"info","timestamp":"2020-01-21T07:21:41.643Z"}
+{"message":"uid1@::1 GET /user 200 15.393 ms","level":"info","timestamp":"2020-01-21T07:21:47.096Z"}
+{"message":"uid1@::1 GET /user/1 200 17.700 ms","level":"info","timestamp":"2020-01-21T07:21:48.457Z"}
+{"message":"uid1@::1 GET /user/2 404 12.637 ms","level":"info","timestamp":"2020-01-21T07:21:52.272Z"}
+{"message":"uid1@::1 GET /user/1 200 10.334 ms","level":"info","timestamp":"2020-01-21T07:21:54.651Z"}
+{"message":"uid1@::1 PUT /user/1 200 21.874 ms","level":"info","timestamp":"2020-01-21T07:22:06.680Z"}
+{"message":"uid1@::1 PUT /user/1 200 28.723 ms","level":"info","timestamp":"2020-01-21T07:22:11.282Z"}
+{"message":"uid1@::1 PUT /user/1 200 6.782 ms","level":"info","timestamp":"2020-01-21T07:22:12.113Z"}
+{"message":"uid1@::1 GET /user 403 7.225 ms","level":"info","timestamp":"2020-01-21T07:22:15.362Z"}
+{"message":"uid1@::1 PUT /user/1 200 4.825 ms","level":"info","timestamp":"2020-01-21T07:22:17.979Z"}
+{"message":"uid1@::1 PUT /user/1 200 7.094 ms","level":"info","timestamp":"2020-01-21T07:22:23.022Z"}
+{"message":"uid1@::1 GET /user 200 10.305 ms","level":"info","timestamp":"2020-01-21T07:22:25.392Z"}
+{"message":"uid1@::1 PUT /user/1 200 14.213 ms","level":"info","timestamp":"2020-01-21T07:22:28.158Z"}
+{"message":"uid1@::1 PUT /user/1 200 4.155 ms","level":"info","timestamp":"2020-01-21T07:22:32.221Z"}
+{"message":"uid1@::1 GET /user/1 200 9.380 ms","level":"info","timestamp":"2020-01-21T07:22:36.416Z"}
+{"message":"uid1@::1 GET /user/1 200 9.133 ms","level":"info","timestamp":"2020-01-21T07:22:52.696Z"}
+{"message":"uid1@::1 PUT /user/1 200 5.948 ms","level":"info","timestamp":"2020-01-21T07:23:03.555Z"}
+{"message":"uid1@::1 PUT /user/1 200 3.736 ms","level":"info","timestamp":"2020-01-21T07:23:06.960Z"}
+{"message":"uid1@::1 GET /user/1 200 13.809 ms","level":"info","timestamp":"2020-01-21T07:23:16.063Z"}
+{"message":"uid1@::1 GET /user 200 18.852 ms","level":"info","timestamp":"2020-01-21T07:23:18.163Z"}
+{"message":"uid1@::1 PUT /user/1 200 9.134 ms","level":"info","timestamp":"2020-01-21T07:23:24.424Z"}
+{"message":"uid1@::1 GET /user/1 200 9.397 ms","level":"info","timestamp":"2020-01-21T07:23:27.565Z"}
+{"message":"uid1@::1 GET /user/2 403 3.426 ms","level":"info","timestamp":"2020-01-21T07:23:29.092Z"}
+{"message":"uid1@::1 PUT /user/1 200 40.425 ms","level":"info","timestamp":"2020-01-21T07:23:32.757Z"}
+{"message":"uid1@::1 PUT /user/1 200 13.155 ms","level":"info","timestamp":"2020-01-21T07:24:05.543Z"}
+{"message":"uid1@::1 POST /auth/login 200 38.700 ms","level":"info","timestamp":"2020-01-21T07:24:09.991Z"}
+{"message":"uid1@::1 GET /auth/check 200 2.157 ms","level":"info","timestamp":"2020-01-21T07:24:13.811Z"}
+{"message":"uid1@::1 GET /user 403 5.341 ms","level":"info","timestamp":"2020-01-21T07:24:15.861Z"}
+{"message":"uid1@::1 GET /user/2 403 3.806 ms","level":"info","timestamp":"2020-01-21T07:24:18.064Z"}
+{"message":"uid1@::1 GET /user/1 200 12.634 ms","level":"info","timestamp":"2020-01-21T07:24:20.349Z"}
+{"message":"uid1@::1 PUT /user/1 200 7.168 ms","level":"info","timestamp":"2020-01-21T07:24:29.629Z"}
+{"message":"uid1@::1 PUT /user/1 200 5.832 ms","level":"info","timestamp":"2020-01-21T07:24:33.067Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:24:56.923Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:24:56.938Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:24:56.954Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:24:57.007Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:24:57.009Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:24:57.010Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:24:57.018Z"}
+{"message":"uid1@::1 POST /auth/login 200 38.529 ms","level":"info","timestamp":"2020-01-21T07:25:04.688Z"}
+{"message":"uid1@::1 PUT /user/1 200 20.759 ms","level":"info","timestamp":"2020-01-21T07:25:08.048Z"}
+{"message":"uid1@::1 PUT /user/1 200 7.968 ms","level":"info","timestamp":"2020-01-21T07:25:11.403Z"}
+{"message":"uid1@::1 PUT /user/2 403 0.629 ms","level":"info","timestamp":"2020-01-21T07:25:37.592Z"}
+{"message":"uid1@::1 PUT /user/2 400 0.628 ms","level":"info","timestamp":"2020-01-21T07:25:40.127Z"}
+{"message":"uid1@::1 PUT /user/2 400 0.708 ms","level":"info","timestamp":"2020-01-21T07:25:42.269Z"}
+{"message":"uid1@::1 PUT /user/2 403 0.641 ms","level":"info","timestamp":"2020-01-21T07:25:45.222Z"}
+{"message":"uid1@::1 PUT /user/2 403 0.806 ms","level":"info","timestamp":"2020-01-21T07:25:48.341Z"}
+{"message":"uid1@::1 PUT /user/2 403 0.600 ms","level":"info","timestamp":"2020-01-21T07:25:49.995Z"}
+{"message":"uid1@::1 PUT /user/1 200 79.893 ms","level":"info","timestamp":"2020-01-21T07:25:53.852Z"}
+{"message":"uid1@::1 PUT /user/1 400 0.685 ms","level":"info","timestamp":"2020-01-21T07:26:08.266Z"}
+{"message":"uid1@::1 PUT /user/1 200 68.755 ms","level":"info","timestamp":"2020-01-21T07:26:13.300Z"}
+{"message":"uid1@::1 GET /user/1 200 16.447 ms","level":"info","timestamp":"2020-01-21T07:26:16.836Z"}
+{"message":"uid1@::1 GET /user/2 403 4.136 ms","level":"info","timestamp":"2020-01-21T07:26:20.475Z"}
+{"message":"uid1@::1 GET /user/1 200 8.979 ms","level":"info","timestamp":"2020-01-21T07:26:23.590Z"}
+{"message":"uid1@::1 PUT /user/1 403 4.122 ms","level":"info","timestamp":"2020-01-21T07:26:26.761Z"}
+{"message":"uid1@::1 PUT /user/1 403 3.698 ms","level":"info","timestamp":"2020-01-21T07:26:37.453Z"}
+{"message":"uid1@::1 PUT /user/1 200 61.007 ms","level":"info","timestamp":"2020-01-21T07:26:41.382Z"}
+{"message":"uid1@::1 PUT /user/1 403 27.164 ms","level":"info","timestamp":"2020-01-21T07:26:46.103Z"}
+{"message":"uid1@::1 PUT /user/1 200 73.642 ms","level":"info","timestamp":"2020-01-21T07:26:50.443Z"}
+{"message":"guest@::1 GET /auth/logout 200 0.797 ms","level":"info","timestamp":"2020-01-21T07:26:54.629Z"}
+{"message":"uid1@::1 POST /auth/login 200 35.813 ms","level":"info","timestamp":"2020-01-21T07:26:59.032Z"}
+{"message":"guest@::1 POST /auth/login 401 31.061 ms","level":"info","timestamp":"2020-01-21T07:27:01.647Z"}
+{"message":"guest@::1 PUT /user/1 403 0.568 ms","level":"info","timestamp":"2020-01-21T07:27:23.577Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:30:04.987Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:30:05.003Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:30:05.019Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:30:05.084Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:30:05.087Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:30:05.088Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:30:05.092Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:33:13.715Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:33:13.730Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:33:13.745Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:33:13.797Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:33:13.798Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:33:13.799Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:33:13.803Z"}
+{"message":"uid1@::1 POST /auth/login 200 38.571 ms","level":"info","timestamp":"2020-01-21T07:33:18.245Z"}
+{"message":"uid1@::1 GET /user 200 13.368 ms","level":"info","timestamp":"2020-01-21T07:33:19.824Z"}
+{"message":"uid1@::1 POST /user 400 1.645 ms","level":"info","timestamp":"2020-01-21T07:33:22.624Z"}
+{"message":"uid1@::1 PUT /user/1 200 10.423 ms","level":"info","timestamp":"2020-01-21T07:35:56.966Z"}
+{"message":"uid1@::1 POST /user - - ms","level":"info","timestamp":"2020-01-21T07:36:01.736Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:36:12.587Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:36:12.603Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:36:12.620Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:36:12.671Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:36:12.672Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:36:12.673Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:36:12.682Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:37:21.295Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:37:21.312Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:37:21.327Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:37:21.383Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:37:21.384Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:37:21.385Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:37:21.389Z"}
+{"message":"uid1@::1 POST /auth/login 200 34.177 ms","level":"info","timestamp":"2020-01-21T07:37:24.163Z"}
+{"message":"uid1@::1 POST /user 400 1.667 ms","level":"info","timestamp":"2020-01-21T07:37:27.999Z"}
+{"message":"uid1@::1 POST /user 200 20.761 ms","level":"info","timestamp":"2020-01-21T07:37:33.726Z"}
+{"message":"uid1@::1 PUT /user/1 200 82.512 ms","level":"info","timestamp":"2020-01-21T07:37:37.861Z"}
+{"message":"uid1@::1 GET /user 200 55.432 ms","level":"info","timestamp":"2020-01-21T07:37:40.356Z"}
+{"message":"uid1@::1 PUT /user/2 403 9.302 ms","level":"info","timestamp":"2020-01-21T07:37:59.425Z"}
+{"message":"uid1@::1 PUT /user/2 403 4.796 ms","level":"info","timestamp":"2020-01-21T07:38:06.403Z"}
+{"message":"uid1@::1 PUT /user/2 200 7.503 ms","level":"info","timestamp":"2020-01-21T07:38:09.392Z"}
+{"message":"uid1@::1 PUT /user/2 200 6.656 ms","level":"info","timestamp":"2020-01-21T07:38:13.033Z"}
+{"message":"uid1@::1 GET /user 200 8.878 ms","level":"info","timestamp":"2020-01-21T07:38:15.700Z"}
+{"message":"uid1@::1 POST /user 200 4.275 ms","level":"info","timestamp":"2020-01-21T07:38:40.976Z"}
+{"message":"uid1@::1 POST /user 200 4.952 ms","level":"info","timestamp":"2020-01-21T07:38:46.333Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:39:52.814Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:39:52.829Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:39:52.844Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:39:52.897Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:39:52.898Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:39:52.898Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:39:52.902Z"}
+{"message":"uid1@::1 POST /auth/login 200 39.639 ms","level":"info","timestamp":"2020-01-21T07:39:55.564Z"}
+{"message":"uid1@::1 POST /user 409 63.581 ms","level":"info","timestamp":"2020-01-21T07:40:02.342Z"}
+{"message":"uid1@::1 POST /user 200 37.986 ms","level":"info","timestamp":"2020-01-21T07:40:22.053Z"}
+{"message":"uid1@::1 PUT /user/2 403 1.070 ms","level":"info","timestamp":"2020-01-21T07:40:38.865Z"}
+{"message":"uid1@::1 GET /user 200 13.570 ms","level":"info","timestamp":"2020-01-21T07:40:53.544Z"}
+{"message":"uid1@::1 GET /user/1 200 9.291 ms","level":"info","timestamp":"2020-01-21T07:41:06.704Z"}
+{"message":"uid1@::1 GET /user/2 404 8.581 ms","level":"info","timestamp":"2020-01-21T07:41:09.394Z"}
+{"message":"uid1@::1 GET /user/3 200 9.305 ms","level":"info","timestamp":"2020-01-21T07:41:12.453Z"}
+{"message":"uid1@::1 PUT /user/2 403 0.555 ms","level":"info","timestamp":"2020-01-21T07:41:17.661Z"}
+{"message":"uid1@::1 PUT /user/1 409 26.956 ms","level":"info","timestamp":"2020-01-21T07:41:20.928Z"}
+{"message":"database connected at 127.0.0.1:3306","level":"info","timestamp":"2020-01-21T07:42:25.372Z"}
+{"message":"initial check started","level":"info","timestamp":"2020-01-21T07:42:25.388Z"}
+{"message":"initialized userGroup: admin","level":"info","timestamp":"2020-01-21T07:42:25.403Z"}
+{"message":"initialized user: admin (password: admin)","level":"info","timestamp":"2020-01-21T07:42:25.455Z"}
+{"message":"granted all privileges to admin","level":"info","timestamp":"2020-01-21T07:42:25.456Z"}
+{"message":"database ready","level":"info","timestamp":"2020-01-21T07:42:25.457Z"}
+{"message":"server listening port 8080","level":"info","timestamp":"2020-01-21T07:42:25.465Z"}
+{"message":"uid1@::1 POST /auth/login 200 39.421 ms","level":"info","timestamp":"2020-01-21T07:42:39.205Z"}
+{"message":"uid1@::1 POST /user 200 46.975 ms","level":"info","timestamp":"2020-01-21T07:42:41.582Z"}
+{"message":"uid1@::1 POST /user 409 72.847 ms","level":"info","timestamp":"2020-01-21T07:42:52.399Z"}
+{"message":"uid1@::1 GET /user 200 9.052 ms","level":"info","timestamp":"2020-01-21T07:42:58.073Z"}
